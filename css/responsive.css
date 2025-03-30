@@ -256,7 +256,7 @@
 	}
 	.hs_about_indx_main_wrapper 
 	.hs_about_heading_main_wrapper {
-		padding-top: 60px;
+		padding-top: 40px;
 	}
 	.hs_counter_cont_wrapper{
 		width:100%;
@@ -378,6 +378,46 @@
 @media (max-width: 767px){
 	.main-body .overlay{
 		display: none;
+	}
+	.hs_about_indx_main_wrapper{
+		top: 0 !important;
+	}
+	.about_page_wrapper {
+		padding-top: 60px;
+		padding-bottom: 0;
+	}
+	.hs_astro_img_wrapper li{
+		width: 120px;
+		height: 34px;
+		line-height: 35px;
+		font-size: 14px;
+	}
+	.hs_astro_img_cont_wrapper p{
+		font-size: 12px;
+	}
+	.hs_astro_img_cont_wrapper h2{
+		font-size: 16px;
+	}
+	.hs_astro_img_bottom_wrapper{
+		padding: 8px 15px;
+	}
+	.hs_astro_img_bottom_wrapper li{
+		font-size: 14px;
+	}
+	.hs_astro_img_bottom_wrapper li:last-child{
+		padding-left: 2px;
+		font-weight: bold;
+		color: #EA0000;
+		font-size: 12px;
+	}
+	.hs_about_progress_main_wrapper{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.hs_about_left_img_wrapper img{
+		width: 68%;
+		margin: auto;
+		display: block;
 	}
 	.appointment-book-modal .modal-dialog {
 		width: 93%;

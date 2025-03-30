@@ -7,7 +7,45 @@ html {
 	overflow-x:hidden;
 	scroll-behavior: smooth;
 }
-
+.d-flex-align-center{
+	align-items: center;
+    display: flex;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+	from {
+	  -webkit-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	to {
+	  -webkit-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  @keyframes rotating {
+	from {
+	  -ms-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -webkit-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	to {
+	  -ms-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -webkit-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  .rotating {
+	-webkit-animation: rotating 9s linear infinite;
+	-moz-animation: rotating 9s linear infinite;
+	-ms-animation: rotating 9s linear infinite;
+	-o-animation: rotating 9s linear infinite;
+	animation: rotating 9s linear infinite;
+}
 #return-to-top {
 	position: absolute;
 	bottom: 70px;
@@ -2924,7 +2962,7 @@ ul {
 	float: left;
 	width: 100%;
 	height: 100%;
-    padding-top: 120px;
+    padding-top: 90px;
     padding-bottom: 56px;
 }
 
@@ -3017,11 +3055,13 @@ ul {
 .hs_team_slider_wrapper .owl-theme .owl-dots {
 	display: none;
 }
-
+.astrologers-section{
+	margin-bottom: 3em;
+}
 .hs_astro_team_img_main_wrapper {
 	float: left;
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 18px;
 	border: 1px solid #ebebeb;
 	-webkit-box-shadow: 0px 0px 35px -20px;
 	box-shadow: 0px 0px 35px -20px;
@@ -3048,7 +3088,7 @@ ul {
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
-	background: #00a651;
+	background: #ee8722;
 	position: absolute;
 	font-size: 18px;
 	bottom: 0;
@@ -3103,14 +3143,14 @@ ul {
 .hs_astro_img_inner_wrapper {
 	float: left;
 	width: 100%;
-	padding: 30px;
+	padding: 15px;
 }
 
 .hs_astro_img_bottom_wrapper {
 	float: left;
 	width: 100%;
 	background: #fff;
-	padding: 30px;
+	padding: 15px;
 	border-top: 1px solid #ebebeb;
 }
 
@@ -3758,6 +3798,7 @@ ul {
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	background: #ebebeb;
 }
 
 .hs_about_progress_img_left {
@@ -9410,10 +9451,12 @@ ul {
 .hs_team_slider_wrapper .hs_astro_img_wrapper li {
 	background: #ee8722;
 	border-top-right-radius: 8px;
+	cursor: pointer;
 }
 
 .hs_astro_team_img_main_wrapper:hover .hs_astro_img_wrapper li {
 	background: #EA0000;
+	cursor: pointer;
 }
 
 
