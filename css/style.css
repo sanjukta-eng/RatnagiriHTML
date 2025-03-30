@@ -7134,7 +7134,8 @@ ul {
 /**************------ VASTU SHASTRA CSS END -------*******************/
 /**************------ SHOP CSS START -------*******************/
 .shop_wrapper {
-	margin-bottom: 70px;
+	margin-bottom: 0;
+	padding-top: 0;
 }
 
 .hs_shop_pp_border_top_line {
