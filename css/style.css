@@ -7674,7 +7674,7 @@ ul {
 	float: left;
 	width: 100%;
 	padding-bottom: 20px;
-	border-bottom: 1px solid #eeeeee;
+	/* border-bottom: 1px solid #eeeeee; */
 }
 
 .hs_shop_single_review_wrapper i {
@@ -7794,7 +7794,7 @@ ul {
 .hs_shop_single_cont_wrapper {
 	float: left;
 	width: 100%;
-	padding-top: 30px;
+	/* padding-top: 30px; */
 }
 
 .hs_shop_single_cont_wrapper h5 {
