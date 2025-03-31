@@ -7313,9 +7313,14 @@ ul {
 	width: 100%;
 	text-align: center;
 	border-top: 1px solid #ebebeb;
-	padding: 28px 30px 0px 30px;
+	padding: 12px 30px 0px 30px;
 }
-
+.shop_wrapper .hs_shop_prodt_img_cont_wrapper .gemestone-para-text{
+	margin-top: 8px;
+}
+.shop_wrapper .hs_shop_prodt_img_cont_wrapper .hs_shop_prodt_cart_btn {
+    padding-top: 14px;
+}
 .hs_shop_prodt_cart_btn {
 	padding-top: 20px;
 }
@@ -7420,7 +7425,7 @@ ul {
 
 .hs_shop_prodt_cart_btn a {
 	display: inline-block;
-	line-height: 50px;
+	line-height: 38px;
 	background: #EA0000;
 	font-weight: 600;
 	color: #fff;
