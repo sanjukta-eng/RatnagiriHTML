@@ -11,6 +11,9 @@ html {
 	align-items: center;
     display: flex;
 }
+.mt-60px{
+	margin-top: 60px;
+}
 @-webkit-keyframes rotating /* Safari and Chrome */ {
 	from {
 	  -webkit-transform: rotate(0deg);
@@ -7317,6 +7320,12 @@ ul {
 }
 .shop_wrapper .hs_shop_prodt_img_cont_wrapper .gemestone-para-text{
 	margin-top: 8px;
+	position: relative;
+    display: inline-block;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 2.6em;
+    line-height: 1.2em;
 }
 .shop_wrapper .hs_shop_prodt_img_cont_wrapper .hs_shop_prodt_cart_btn {
     padding-top: 14px;
@@ -7648,7 +7657,9 @@ ul {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-
+.hs_shop_single_prod_slider_wrapper .hs_btn_wrapper{
+	float: left;
+}
 .cc_ps_top_slider_section .owl-theme .owl-dots {
 	display: none;
 }
