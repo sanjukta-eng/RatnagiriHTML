@@ -4440,7 +4440,7 @@ ul {
 .hs_kd_right_first_sec_wrapper {
 	float: left;
 	width: 100%;
-	border: 1px solid #9561bc;
+	border: 1px solid #EA0000;
 }
 
 .hs_kd_right_first_sec_heading {
@@ -6668,13 +6668,13 @@ ul {
 }
 
 .hs_blog_right_cate_list_cont_wrapper ul {
-	border: 1px solid #9561bc;
+	border: 1px solid #d5d1d1;
 }
 
 .hs_blog_right_cate_list_cont_wrapper li a {
 	display: block;
 	padding: 15px 20px;
-	border-bottom: 1px solid #9561bc;
+	border-bottom:1px solid #d5d1d1;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
