@@ -17,6 +17,15 @@ html {
 .mt-30px{
 	margin-top: 30px;
 }
+.mb-20{
+	margin-bottom: 20px;
+}
+
+.modal-backdrop.in{
+	/* opacity: 0; */
+	display: none;
+}
+
 @-webkit-keyframes rotating /* Safari and Chrome */ {
 	from {
 	  -webkit-transform: rotate(0deg);
@@ -3063,6 +3072,9 @@ ul {
 }
 .astrologers-section{
 	margin-bottom: 3em;
+}
+.astrologers-section .hs_about_heading_wrapper{
+	margin-top: 3em;
 }
 .hs_astro_team_img_main_wrapper {
 	float: left;
@@ -9618,7 +9630,7 @@ ul {
 	margin-top: 5em;
 	margin-bottom: 3em;
 }
-  .gallery img {
+  /* .gallery img {
 	width: 100%;
 	cursor: pointer;
 	border-radius: 8px;
@@ -9627,7 +9639,25 @@ ul {
 
   .gallery img:hover {
 	transform: scale(1.05);
-  }
+  } */
+
+.jewellery-section .gemestone-para-text{
+	text-align: left;
+	margin: 10px 0;
+}
+.jewellery-section ul{
+	text-align: left;
+}
+.jewellery-section .same-height-cardbox-row-style{
+	display: flex;
+  	flex-wrap: wrap;
+}
+.jewellery-section .same-height-cardbox-row-style .hs_shop_prodt_main_box{
+	flex: 1 0 100%;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
 
   .modal {
 	display: none;
